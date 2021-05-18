@@ -1,0 +1,28 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: black;
+    display: flex;
+    justify-content: flex-start;
+    height: 46px;
+    line-height: 46px;
+}
+.item{
+    margin-left: .5em;
+    width: 118px;
+    padding:5px;
+    text-align: center;
+}
+
+.item > a{
+    color: #CCCCCC;
+    text-decoration: none;
+}
+.item:hover{
+    background: #CCCCCC;
+}
+.item:hover a{
+    color:black;
+}
